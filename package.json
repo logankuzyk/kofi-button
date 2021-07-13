@@ -1,6 +1,6 @@
 {
   "name": "kofi-button",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The Ko-fi donate button as a React component.",
   "main": "src/KofiButton.tsx",
   "scripts": {
