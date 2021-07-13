@@ -1,7 +1,11 @@
 import React from "react";
 
-export function KofiButton(
-  title: string,
-  color: string,
-  kofiID: string
-): React.Component;
+declare module KofiButton {
+  function KofiButton(
+    title: string,
+    color: string,
+    kofiID: string
+  ): React.Component;
+
+  export default KofiButton;
+}

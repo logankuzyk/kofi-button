@@ -2,7 +2,7 @@
   "name": "kofi-button",
   "version": "1.0.1",
   "description": "The Ko-fi donate button as a React component.",
-  "main": "src/KofiButton.tsx",
+  "main": "src/KofiButton.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,8 +20,6 @@
     "react": "^17.0.2"
   },
   "devDependencies": {
-    "@types/node": "^16.3.1",
-    "@types/react": "^17.0.14",
     "prettier": "^2.3.2"
   }
 }
