@@ -2,7 +2,7 @@
   "name": "kofi-button",
   "version": "1.0.0",
   "description": "The Ko-fi donate button as a React component.",
-  "main": "index.js",
+  "main": "src/KofiButton.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
