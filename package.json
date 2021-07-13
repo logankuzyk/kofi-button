@@ -1,0 +1,27 @@
+{
+  "name": "kofi-button",
+  "version": "1.0.0",
+  "description": "The Ko-fi donate button as a React component.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logankuzyk/kofi-button.git"
+  },
+  "author": "Logan Kuzyk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/logankuzyk/kofi-button/issues"
+  },
+  "homepage": "https://github.com/logankuzyk/kofi-button#readme",
+  "dependencies": {
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.3.1",
+    "@types/react": "^17.0.14",
+    "prettier": "^2.3.2"
+  }
+}
