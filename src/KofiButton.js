@@ -5,8 +5,10 @@ const KofiButton = ({ title, color, kofiID }) => {
 
   kofiwidget2.init(title, color, kofiID);
 
-  return (
-    <div dangerouslySetInnerHTML={{ __html: kofiwidget2.getHTML() }}></div>
+  return React.createElement(
+    div,
+    { dangerouslySetInnerHTML: { __html: kofiwidget2.getHTML() } },
+    null
   );
 };
 
