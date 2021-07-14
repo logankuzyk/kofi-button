@@ -6,6 +6,6 @@ interface KofiButtonProps {
   kofiID: string;
 }
 
-declare const KofiButton: React.Component<KofiButtonProps>;
+declare const KofiButton: React.FC<KofiButtonProps>;
 
 export default KofiButton;
