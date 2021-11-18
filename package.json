@@ -24,7 +24,8 @@
   ],
   "dependencies": {
     "react": "^17.0.2",
-    "rollup": "^2.60.0"
+    "rollup": "^2.60.0",
+    "rollup-plugin-terser": "^7.0.2"
   },
   "devDependencies": {
     "prettier": "^2.3.2"
