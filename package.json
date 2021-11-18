@@ -17,9 +17,14 @@
     "url": "https://github.com/logankuzyk/kofi-button/issues"
   },
   "homepage": "https://github.com/logankuzyk/kofi-button#readme",
-  "keywords": ["React", "Ko-fi", "Button"],
+  "keywords": [
+    "React",
+    "Ko-fi",
+    "Button"
+  ],
   "dependencies": {
-    "react": "^17.0.2"
+    "react": "^17.0.2",
+    "rollup": "^2.60.0"
   },
   "devDependencies": {
     "prettier": "^2.3.2"
