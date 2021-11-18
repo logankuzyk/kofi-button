@@ -1,6 +1,6 @@
 {
   "name": "kofi-button",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "The Ko-fi donate button as a React component.",
   "main": "src/KofiButton.js",
   "types": "src/KofiButton.d.ts",
@@ -17,6 +17,7 @@
     "url": "https://github.com/logankuzyk/kofi-button/issues"
   },
   "homepage": "https://github.com/logankuzyk/kofi-button#readme",
+  "keywords": ["React", "Ko-fi", "Button"],
   "dependencies": {
     "react": "^17.0.2"
   },
