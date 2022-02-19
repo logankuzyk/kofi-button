@@ -1,9 +1,9 @@
 {
   "name": "kofi-button",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "The Ko-fi donate button as a React component.",
-  "main": "dist/KofiButton.js",
-  "types": "dist/KofiButton.d.ts",
+  "main": "./KofiButton.js",
+  "types": "./KofiButton.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c"
