@@ -1,6 +1,6 @@
 // From https://storage.ko-fi.com/cdn/widget/Widget_2.js.
 
-export var kofiwidget2 = () => {
+const kofiWidget2 = () => {
   var style = "";
   var html = "";
   var color = "";
@@ -42,3 +42,5 @@ export var kofiwidget2 = () => {
     },
   };
 };
+
+export { kofiWidget2 as default };
