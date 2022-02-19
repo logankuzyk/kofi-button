@@ -1,9 +1,8 @@
-import React from "react";
+import React, { useRef } from "react";
+import kofiWidget2 from "./kofiWidget2";
 
 const KofiButton = ({ title, color, kofiID }) => {
-  const { kofiwidget2 } = require("./kofiWidget2");
-
-  const KofiWidget2 = kofiwidget2();
+  const { current: KofiWidget2 } = useRef(kofiWidget2());
 
   KofiWidget2.init(title, color, kofiID);
 
@@ -14,4 +13,4 @@ const KofiButton = ({ title, color, kofiID }) => {
   );
 };
 
-export default KofiButton;
+export { KofiButton as default };

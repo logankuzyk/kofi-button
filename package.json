@@ -1,11 +1,12 @@
 {
   "name": "kofi-button",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "description": "The Ko-fi donate button as a React component.",
-  "main": "src/KofiButton.js",
-  "types": "src/KofiButton.d.ts",
+  "main": "dist/KofiButton.js",
+  "types": "dist/KofiButton.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -17,10 +18,18 @@
     "url": "https://github.com/logankuzyk/kofi-button/issues"
   },
   "homepage": "https://github.com/logankuzyk/kofi-button#readme",
-  "dependencies": {
-    "react": "^17.0.2"
-  },
+  "keywords": [
+    "React",
+    "Ko-fi",
+    "Button"
+  ],
+  "dependencies": {},
   "devDependencies": {
-    "prettier": "^2.3.2"
+    "@types/react": "^17.0.39",
+    "prettier": "^2.3.2",
+    "react": "^17.0.2",
+    "rollup": "^2.60.0",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-terser": "^7.0.2"
   }
 }

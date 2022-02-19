@@ -1,4 +1,4 @@
-import React from "react";
+import { FC } from "react";
 
 interface KofiButtonProps {
   title: string;
@@ -6,6 +6,6 @@ interface KofiButtonProps {
   kofiID: string;
 }
 
-declare const KofiButton: React.FC<KofiButtonProps>;
+declare const KofiButton: FC<KofiButtonProps>;
 
-export default KofiButton;
+export { KofiButton as default };
