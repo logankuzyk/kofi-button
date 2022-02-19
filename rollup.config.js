@@ -15,6 +15,7 @@ export default defineConfig({
         { src: "src/KofiButton.d.ts", dest: "dist/" },
         { src: "package.json", dest: "dist/" },
         { src: "LICENSE", dest: "dist/" },
+        { src: "README.md", dest: "dist/" },
       ],
     }),
   ],
